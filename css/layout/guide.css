@@ -1,0 +1,8 @@
+#guide{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.guide{
+    display: flex;
+    justify-content: space-between;
+}

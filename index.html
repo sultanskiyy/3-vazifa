@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="">
+                <img width="120px" src="./assets/images/mk-travels.png" alt="logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Why us</a>
+                </li>
+                <li>
+                    <a href="">Trips</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <img class="menu" src="data:image/png;base64,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" alt="menu">
+        </div>
+        <hr class="line">
+    </header>
+    
+    <main>
+        <section id="hero">
+            <div class="about">
+                <h1 class="hero-title">
+                    Visit beautiful new <br>
+                    places with mk <br>
+                    travels
+                </h1>
+                <p class="hero-text">
+                    Lorem ipmus dolor sit amet, consectetur adipisicing elit, sed <br>
+                    do eiusmod tempor incididunt ut labore et dolore magna<br>
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+                    ullamco laboris nisi ut aliquip.
+                </p>
+                <button class="btn">
+                    Get started
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section id="about">
+            <div class="world">
+                <div class="world-image">
+                    <img height="400px" width="500px" src="./assets/images/sharshara.jpg" alt="sharshara">
+                </div>
+                <div>
+                <p class="about-title">
+                    About us
+                </p>
+                <h1 class="about-subtitle">
+                    Explore world with us
+                </h1>
+                <p class="about-text-1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+                    elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua. Ut enim ad minim veniam, quis <br>
+                    nostrud exercitation ullamco laboris nisi ut aliquip <br>
+                </p>
+                <p class="about-text-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+                    elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua.
+                </p>
+                <button class="btn">
+                    Get started
+                </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section id="guide">
+            <div class="container guide">
+                <div>
+                    <img width="40px" src="./assets/images/guide.png" alt="xisobot">
+                    <h3>
+                        Full Guide
+                    </h3>
+                    <p>
+                        Lorem impus dollor sit amet, <br>
+                        consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div>
+                    <img width="40px" src="./assets/images/transport.png" alt="transport">
+                    <h3>
+                        Transport
+                    </h3>
+                    <p>
+                        Lorem impus dollor sit amet, <br>
+                        consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div>
+                    <img width="40px" src="./assets/images/book.png" alt="kitob">
+                    <h3>
+                        Easy Book
+                    </h3>
+                    <p>
+                        Lorem impus dollor sit amet, <br>
+                        consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div>
+                    <img width="40px" src="./assets/images/fire.png" alt="olov">
+                    <h3>
+                        Camp Fire
+                    </h3>
+                    <p>
+                        Lorem impus dollor sit amet, <br>
+                        consectetur adipisicing elit. 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section id="why">
+            <div class="why">
+                <p class="why-title">
+                    Why us
+                </p>
+                <h1 class="why-subtitle">
+                    Explore world with us
+                </h1>
+            </div>
+
+            <div class="why-cards">
+                <div class="why-card-1">
+                    <h3 class="why-card-title">
+                        Roma, Italy
+                    </h3>
+                    <p>
+                        Lorem impus dolorsit amet, consectetur <br>
+                        adipisicing elit. Lorem impus dolor sit <br>
+                        amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="why-card-2">
+                    <h3 class="why-card-title">
+                        Jakarta, Indonesia
+                    </h3>
+                    <p>
+                        Lorem impus dolorsit amet, consectetur <br>
+                        adipisicing elit. Lorem impus dolor sit <br>
+                        amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="why-card-3">
+                    <h3 class="why-card-title">
+                        Bangkok, Thailand
+                    </h3>
+                    <p>
+                        Lorem impus dolorsit amet, consectetur <br>
+                        adipisicing elit. Lorem impus dolor sit <br>
+                        amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <main>
+        <section id="reviews">
+            <div class="reviews-container">
+                <div>
+                    <p class="about-title">
+                    What they us
+                </p>
+                <h1 class="about-subtitle">
+                    Customer Reviews
+                </h1>
+                <p class="about-text-1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+                    elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua. Ut enim ad minim veniam, quis <br>
+                    nostrud exercitation ullamco laboris nisi ut aliquip <br>
+                </p>
+                <p class="about-text-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing <br>
+                    elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua.
+                </p>
+                <button class="btn">
+                    All reviews
+                </button>
+                </div>
+                <img height="400px" width="600px" src="./assets/images/girl-in.jpg" alt="qiz bola">
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section id="trips">
+            <div class="trips-container">
+                <p class="about-title">
+                    Trips
+                </p>
+                <h1 class="trips-subtitle">
+                    Explore world with us
+                </h1>
+                <p class="trips-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> 
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                </p>
+                <button class="btn">
+                    Get started
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="index.html">
+                    <img width="160px" src="./assets/images/mk-travels.png" alt="logotip">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <h3>
+                    Learn more
+                    </h3>
+                    <li>
+                        About lift
+                    </li>
+                    <li>
+                        Press Releases
+                    </li>
+                    <li>
+                        Environment
+                    </li>
+                    <li>
+                        Jobs
+                    </li>
+                    <li>
+                        Privacy Policy
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <h3>
+                    Tickets & Booking
+                    </h3>
+                    <li>
+                        Lift Tickets
+                    </li>
+                    <li>
+                        Season Passes
+                    </li>
+                    <li>
+                        Vocation Packages
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <h3>
+                    Contact Us
+                    </h3>
+                    <li>
+                        Hotel Reservations: 123-456-7890
+                    </li>
+                    <li>
+                        Ticket Office: 123-456-7890
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+            </div>
+
+            <div>
+                <ul>
+                    <h3>
+                        Social
+                    </h3>
+                    <li>
+                        <a href="index.html">
+                            <img class="footer-photo" src="./assets/images/facebook.png" alt="facebook">
+                            <img class="footer-photo" src="./assets/images/instagram.avif" alt="instagram">
+                            <img class="footer-photo" src="./assets/images/twitter.png" alt="twitter">
+                            <img class="footer-photo" src="https://www.citypng.com/public/uploads/preview/hd-black-round-circle-outline-youtube-yt-logo-icon-png-701751695120640nmh2ehgx1v.png?v=2025061901" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-line">
+        <div>
+            <p class="footer-text-2">
+                © 2023 MK Travels. All rights reserved. | <a class="footer-text-2" href="">Privacy Policy</a> | <a class="footer-text-2" href="">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
